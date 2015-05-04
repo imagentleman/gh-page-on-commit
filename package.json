@@ -1,0 +1,9 @@
+{
+  "name": "gh-pages-on-commit",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "latest",
+    "deletea": "latest"
+  },
+  "private": true
+}
