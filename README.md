@@ -1,4 +1,4 @@
-# gh-page-on-commit
+# gh-pages on commit
 An example setup to generate a github page automatically after each commit using the travis continuous integration
 
 This repo provides an example project that has a "build" step (gulp command) that generates a static file in a folder different to source, and the 2 files (deploy.sh and .travis.yml) required for travis to execute the build and push it to github to generate the page when a commit happens (by default travis tries to run the build if it finds the .travis.yml configuration file on the branch).
