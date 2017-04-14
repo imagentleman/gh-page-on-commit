@@ -1,9 +1,6 @@
 language: node_js
 node_js:
-- iojs
+- node
 notifications:
   email: false
 script: bash ./deploy.sh
-env:
-  global:
-  - secure: JkUuAd5pRJ6PhP+ZMl8fchRYtOTRyP9HvOG0Bq9NZrlBivJJroVHTktEjeRvoZnO6vWHLv7xkEHGuc41TD/sN7MDzdKWtaO7tpv48w7YTFGM6AAVReCDKAlH+cAo8G8v4q5oBy6P0YbNlg9zIu5X6O+8Ifogu75TXxA3AlnICGk=
